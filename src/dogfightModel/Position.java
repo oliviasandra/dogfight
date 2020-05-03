@@ -11,10 +11,10 @@ public class Position {
 	public Position(Position position) {
 	}
 	public double getx;
-	public void setX(double x) {
+	protected void setX(double x) {
 	}
 	public double getY;
-	public void setY(double y) {
+	protected void setY(double y) {
 	}
 	
 }
