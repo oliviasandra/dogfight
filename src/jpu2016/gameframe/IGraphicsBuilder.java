@@ -1,7 +1,10 @@
 package jpu2016.gameframe;
 
 import java.awt.Graphics;
+import java.awt.List;
 import java.awt.image.ImageObserver;
+
+import jpu2016.dogfight.view.ARRayList;
 
 public interface IGraphicsBuilder {
 	public void applyModelToGraphic(Graphics graphics, ImageObserver observer);
@@ -28,5 +31,5 @@ public interface IGraphicsBuilder {
 		}
 		
 	}
-	private List<GamePanel> _graphicsBuilder = new ARRayList<GamePanel>();
+	ARRayList<GamePanel> _graphicsBuilder = new ARRayList<GamePanel>();
 }

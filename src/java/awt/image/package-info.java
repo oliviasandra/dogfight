@@ -1,1 +1,0 @@
-package java.awt.image;

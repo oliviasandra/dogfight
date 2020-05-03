@@ -1,22 +1,35 @@
 package jpu2016.dogfight.view;
 
+import java.awt.Graphics;
+import java.awt.image.ImageObserver;
+
 public class GraphicsBuilder {
-	public void GraphicsBuilder(IDogfightModel dogfightModel);
-	public void applyModelToGraphic(Graphics graphics , ImageObserver observer);
-	private void buikdEmptySky();
-	private void drawMobile(IMobile mobile , Graphics graphics , ImageObserver observer);
-	 public int getGlobalWidth();
-	 public int getGlobalHeight();
+	public class GraphicsBuilders {
+
+	}
+	public void GraphicsBuilder(IDogfightModel dogfightModel) {
+	}
+	public void applyModelToGraphic(Graphics graphics , ImageObserver observer) {
+	}
+	private void buikdEmptySky() {
+	}
+	private void drawMobile(IMobile mobile , Graphics graphics , ImageObserver observer) {
+	}
+	 public int getGlobalWidth() {
+		return 0;
+	}
+	 public int getGlobalHeight() {
+		return 0;
+	}
 	 
 	 private IDogfightModel _dogfightModel;
 	 private GraphicsBuilder() {
-		 _dogfightModel = new IDogfightModel();
 	 }
 	 public interface IDogfightModel{
 		 
 	 }
 	 private BuffereDImage _emptySky;
-	 private GraphicsBuilder() {
+	 private void GraphicsBuilder1() {
 		 _emptySky = new BuffereDImage();
 	 }
 	 public class BuffereDImage{
